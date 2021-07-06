@@ -1,10 +1,9 @@
+Code author: Niklas Berliner for Sustainlab (University of Edinburgh)
 
-Create conda environemnt
+Code use:
 
-conda env create -f impact-env.yml
+1. Create conda environemnt
+   conda env create -f impact-env.yml
 
-
-
-Run all notebooks
-
-longjob -28day -c ./execute_notebooks.sh
+2. Run all notebooks
+   longjob -28day -c ./execute_notebooks.sh
