@@ -21,13 +21,13 @@ import pandas as pd
 
 
 ## PublicRelease data folder Path
-DATA_FOLDER = Path('/afs/inf.ed.ac.uk/group/ideal/DataSharing/PublicReleaseCandidates')
+DATA_FOLDER = Path('/path/to/IDEAL/PublicRelease')
 SENSOR_DATA_FOLDER = DATA_FOLDER / Path('IDEALsensordata/csv')
 META_DATA_FOLDER = DATA_FOLDER / Path('IDEALmetadata/csv')
 CLICK_DATA_FOLDER = DATA_FOLDER / Path('IDEALclickdata/csv')
 
 ## Temporary folder for caching outputs. <------------------------------------------------------- NEEDS TO BE ADJUSTED -
-CACHE_FOLDER = Path('/disk/scratch/nberline/impact/cache/')
+CACHE_FOLDER = Path('/path/to/impact/cache/')
 
 ## Time format string
 ## See: https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior
